@@ -149,7 +149,7 @@ void eliminarProducto(List<Map<String, dynamic>> productos) {
 
   productos.removeAt(posicion);
 
-  print('\nProducto "$nombre" eliminado correctamente.');
+ print('\nProducto "$nombre" eliminado correctamente.');
 }
 //FUNCION 
 String formatearPrecio(double precio) {
