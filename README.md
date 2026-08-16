@@ -69,7 +69,7 @@ Finaliza la ejecución del programa.
 
 ---
 
-## 🧠 Conceptos de Dart utilizados
+##  Conceptos de Dart utilizados
 
 Durante el desarrollo se aplicaron los siguientes conceptos:
 
