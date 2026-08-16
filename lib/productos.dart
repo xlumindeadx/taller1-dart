@@ -123,7 +123,7 @@ void actualizarProducto(List<Map<String, dynamic>> productos) {
     }
   }
 
-  print('\nProducto actualizado correctamente.');
+  print('\nProducto actualizado correctamente....');
 }
 //FUNCION 4/ELIMINAR
 void eliminarProducto(List<Map<String, dynamic>> productos) {
