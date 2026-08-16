@@ -41,7 +41,7 @@ void agregarProducto(List<Map<String, dynamic>> productos) {
 
   productos.add(producto);
 
-  print('\nAgregado Exitosamente.');
+  print('\nProducto "${producto['nombre']}" agregado correctamente.');
 }
 
 // FUNCION 2
@@ -51,7 +51,7 @@ void listarProductos(List<Map<String, dynamic>> productos) {
     return;
   }
 
-  print('\n:::::::::::::::');
+  print('\n---:::::::::::::::::::---');
 
   for (int i = 0; i < productos.length; i++) {
     print(
@@ -123,7 +123,7 @@ void actualizarProducto(List<Map<String, dynamic>> productos) {
     }
   }
 
-  print('\nProducto actualizado correctamente.');
+  print('\nProducto actualizado correctamente....');
 }
 //FUNCION 4/ELIMINAR
 void eliminarProducto(List<Map<String, dynamic>> productos) {
@@ -149,7 +149,7 @@ void eliminarProducto(List<Map<String, dynamic>> productos) {
 
   productos.removeAt(posicion);
 
-  print('\nProducto "$nombre" eliminado correctamente.');
+ print('\nProducto "$nombre" eliminado correctamente.');
 }
 //FUNCION 
 String formatearPrecio(double precio) {
