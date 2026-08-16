@@ -41,7 +41,7 @@ void agregarProducto(List<Map<String, dynamic>> productos) {
 
   productos.add(producto);
 
-  print('\nAgregado Exitosamente.');
+  print('\nProducto "${producto['nombre']}" agregado correctamente.');
 }
 
 // FUNCION 2
