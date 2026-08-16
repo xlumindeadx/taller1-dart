@@ -51,7 +51,7 @@ void listarProductos(List<Map<String, dynamic>> productos) {
     return;
   }
 
-  print('\n:::::::::::::::');
+  print('\n---:::::::::::::::::::---');
 
   for (int i = 0; i < productos.length; i++) {
     print(
